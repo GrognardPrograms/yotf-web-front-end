@@ -3,7 +3,7 @@ import { Searcher } from "@/components/searcher/searcher";
 
 import styles from './styles.module.css'
 
-export const CharacterViewer = (props: any) => {
+export const InspectorPage = (props: any) => {
   const {id} = props.params;
 
   return (
@@ -18,4 +18,4 @@ export const CharacterViewer = (props: any) => {
   )
 }
 
-export default CharacterViewer;
+export default InspectorPage;
