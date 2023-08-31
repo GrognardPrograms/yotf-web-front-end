@@ -1,0 +1,26 @@
+.body {
+  margin: 0px;
+}
+
+.contentBox {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contentBox {
+    width: 85%;
+    margin: 0 0 0 15%;
+  }
+}
+
+.titleBox {
+  padding: 20px 10px;
+  font-size: larger;
+}
+
+.bodyBox {
+  height: 100%;
+}

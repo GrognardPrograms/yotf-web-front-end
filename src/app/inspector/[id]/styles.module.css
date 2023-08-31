@@ -1,0 +1,20 @@
+.inspectorPage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .inspectorPage {
+    flex-direction: row;
+  }
+}
+
+.characterCardBox {
+  width: 100%;
+}
+
+.searcherBox {
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+.searcher {
+  box-shadow: 0px 1px 6px 0px #777777;
+  border-radius: 5px;
+}
+
+.searcherInputBox {
+  padding: 40px;
+}
+
+.searcherResultsBox {
+
+}
+
+.searcherResult {
+  border-top: 1px solid #777777;
+  padding: 10px 40px;
+}
+
+.searcherResultLink {
+  text-decoration: none;
+  color: unset;
+}
